@@ -12,7 +12,7 @@ const RouterMain = (props) => {
                     <LayoutAdmin>
                         <Switch>
                             <Route exact path="/admin/dashboars">
-                                <Dashboard/>
+                                <Dashboard />
                             </Route>
                             <Route exact path="/admin">
                                 <Dashboard/>

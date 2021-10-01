@@ -17,6 +17,6 @@ export const all = () => {
     return MainApi.delete(url);
   };
   export const create = (product) => {
-    const url = `/product`;
+    const url = `/product/create`;
     return MainApi.post(url, product);
   };
